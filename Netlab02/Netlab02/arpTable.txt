@@ -1,0 +1,11 @@
+
+Interface: 10.0.0.2 --- 0xf
+  Internet Address      Physical Address      Type
+  10.0.0.5              5c-f8-a1-c7-03-57     dynamic   
+  10.0.0.138            c0-a0-bb-ca-95-88     dynamic   
+  10.0.0.255            ff-ff-ff-ff-ff-ff     static    
+  224.0.0.22            01-00-5e-00-00-16     static    
+  224.0.0.252           01-00-5e-00-00-fc     static    
+  239.192.152.143       01-00-5e-40-98-8f     static    
+  239.255.255.250       01-00-5e-7f-ff-fa     static    
+  255.255.255.255       ff-ff-ff-ff-ff-ff     static    

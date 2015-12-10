@@ -1,0 +1,63 @@
+﻿Build started 12/9/2015 9:03:43 PM.
+     1>Project "C:\Users\David\Desktop\Netlab02 (1)\Netlab02\Netlab02\Netlab02.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _SCL_SECURE_NO_WARNINGS /D WPCAP /D HAVE_REMOTE /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _CRT_SECURE_NO_WARNINGS /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt L2.cpp L3.cpp main.cpp
+         L2.cpp
+         L3.cpp
+         main.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\David\Desktop\Netlab02 (1)\Netlab02\Release\Netlab02.exe" /INCREMENTAL:NO /NOLOGO NetlabTAU\release\NetlabTAU.lib "pthreads-win32-2-9-1-release\lib\x86\pthreadVC2.lib" WinPcap\WpdPack\Lib\wpcap.lib WinPcap\WpdPack\Lib\Packet.lib ws2_32.lib Iphlpapi.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\David\Desktop\Netlab02 (1)\Netlab02\Release\Netlab02.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\David\Desktop\Netlab02 (1)\Netlab02\Release\Netlab02.lib" /MACHINE:X86 /SAFESEH Release\L2.obj
+         Release\L2_ARP.obj
+         Release\L3.obj
+         Release\main.obj
+         Generating code
+         Finished generating code
+     1>NetlabTAU.lib(NIC.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'NetlabTAU.lib(NIC.obj)' or at 'C:\Users\David\Desktop\Netlab02 (1)\Netlab02\Release\vc120.pdb'; linking object as if no debug info
+     1>NetlabTAU.lib(L4.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'NetlabTAU.lib(L4.obj)' or at 'C:\Users\David\Desktop\Netlab02 (1)\Netlab02\Release\vc120.pdb'; linking object as if no debug info
+     1>NetlabTAU.lib(NIC_Cable.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'NetlabTAU.lib(NIC_Cable.obj)' or at 'C:\Users\David\Desktop\Netlab02 (1)\Netlab02\Release\vc120.pdb'; linking object as if no debug info
+     1>NetlabTAU.lib(network_interface.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'NetlabTAU.lib(network_interface.obj)' or at 'C:\Users\David\Desktop\Netlab02 (1)\Netlab02\Release\vc120.pdb'; linking object as if no debug info
+     1>NetlabTAU.lib(ip_address.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'NetlabTAU.lib(ip_address.obj)' or at 'C:\Users\David\Desktop\Netlab02 (1)\Netlab02\Release\vc120.pdb'; linking object as if no debug info
+     1>NetlabTAU.lib(utils.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'NetlabTAU.lib(utils.obj)' or at 'C:\Users\David\Desktop\Netlab02 (1)\Netlab02\Release\vc120.pdb'; linking object as if no debug info
+     1>NetlabTAU.lib(packet_sender.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'NetlabTAU.lib(packet_sender.obj)' or at 'C:\Users\David\Desktop\Netlab02 (1)\Netlab02\Release\vc120.pdb'; linking object as if no debug info
+     1>NetlabTAU.lib(icmp.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'NetlabTAU.lib(icmp.obj)' or at 'C:\Users\David\Desktop\Netlab02 (1)\Netlab02\Release\vc120.pdb'; linking object as if no debug info
+     1>NetlabTAU.lib(Print.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'NetlabTAU.lib(Print.obj)' or at 'C:\Users\David\Desktop\Netlab02 (1)\Netlab02\Release\vc120.pdb'; linking object as if no debug info
+     1>NetlabTAU.lib(rawpdu.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'NetlabTAU.lib(rawpdu.obj)' or at 'C:\Users\David\Desktop\Netlab02 (1)\Netlab02\Release\vc120.pdb'; linking object as if no debug info
+     1>NetlabTAU.lib(pdu.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'NetlabTAU.lib(pdu.obj)' or at 'C:\Users\David\Desktop\Netlab02 (1)\Netlab02\Release\vc120.pdb'; linking object as if no debug info
+     1>NetlabTAU.lib(sniffer.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'NetlabTAU.lib(sniffer.obj)' or at 'C:\Users\David\Desktop\Netlab02 (1)\Netlab02\Release\vc120.pdb'; linking object as if no debug info
+     1>NetlabTAU.lib(address_range.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'NetlabTAU.lib(address_range.obj)' or at 'C:\Users\David\Desktop\Netlab02 (1)\Netlab02\Release\vc120.pdb'; linking object as if no debug info
+     1>NetlabTAU.lib(ipv6_address.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'NetlabTAU.lib(ipv6_address.obj)' or at 'C:\Users\David\Desktop\Netlab02 (1)\Netlab02\Release\vc120.pdb'; linking object as if no debug info
+     1>NetlabTAU.lib(arp.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'NetlabTAU.lib(arp.obj)' or at 'C:\Users\David\Desktop\Netlab02 (1)\Netlab02\Release\vc120.pdb'; linking object as if no debug info
+     1>NetlabTAU.lib(internals.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'NetlabTAU.lib(internals.obj)' or at 'C:\Users\David\Desktop\Netlab02 (1)\Netlab02\Release\vc120.pdb'; linking object as if no debug info
+     1>NetlabTAU.lib(ppi.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'NetlabTAU.lib(ppi.obj)' or at 'C:\Users\David\Desktop\Netlab02 (1)\Netlab02\Release\vc120.pdb'; linking object as if no debug info
+     1>NetlabTAU.lib(ethernetII.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'NetlabTAU.lib(ethernetII.obj)' or at 'C:\Users\David\Desktop\Netlab02 (1)\Netlab02\Release\vc120.pdb'; linking object as if no debug info
+     1>NetlabTAU.lib(sll.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'NetlabTAU.lib(sll.obj)' or at 'C:\Users\David\Desktop\Netlab02 (1)\Netlab02\Release\vc120.pdb'; linking object as if no debug info
+     1>NetlabTAU.lib(radiotap.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'NetlabTAU.lib(radiotap.obj)' or at 'C:\Users\David\Desktop\Netlab02 (1)\Netlab02\Release\vc120.pdb'; linking object as if no debug info
+     1>NetlabTAU.lib(loopback.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'NetlabTAU.lib(loopback.obj)' or at 'C:\Users\David\Desktop\Netlab02 (1)\Netlab02\Release\vc120.pdb'; linking object as if no debug info
+     1>NetlabTAU.lib(dot11_base.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'NetlabTAU.lib(dot11_base.obj)' or at 'C:\Users\David\Desktop\Netlab02 (1)\Netlab02\Release\vc120.pdb'; linking object as if no debug info
+     1>NetlabTAU.lib(dot3.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'NetlabTAU.lib(dot3.obj)' or at 'C:\Users\David\Desktop\Netlab02 (1)\Netlab02\Release\vc120.pdb'; linking object as if no debug info
+     1>NetlabTAU.lib(ip.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'NetlabTAU.lib(ip.obj)' or at 'C:\Users\David\Desktop\Netlab02 (1)\Netlab02\Release\vc120.pdb'; linking object as if no debug info
+     1>NetlabTAU.lib(eapol.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'NetlabTAU.lib(eapol.obj)' or at 'C:\Users\David\Desktop\Netlab02 (1)\Netlab02\Release\vc120.pdb'; linking object as if no debug info
+     1>NetlabTAU.lib(ipv6.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'NetlabTAU.lib(ipv6.obj)' or at 'C:\Users\David\Desktop\Netlab02 (1)\Netlab02\Release\vc120.pdb'; linking object as if no debug info
+     1>NetlabTAU.lib(icmpv6.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'NetlabTAU.lib(icmpv6.obj)' or at 'C:\Users\David\Desktop\Netlab02 (1)\Netlab02\Release\vc120.pdb'; linking object as if no debug info
+     1>NetlabTAU.lib(ipsec.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'NetlabTAU.lib(ipsec.obj)' or at 'C:\Users\David\Desktop\Netlab02 (1)\Netlab02\Release\vc120.pdb'; linking object as if no debug info
+     1>NetlabTAU.lib(udp.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'NetlabTAU.lib(udp.obj)' or at 'C:\Users\David\Desktop\Netlab02 (1)\Netlab02\Release\vc120.pdb'; linking object as if no debug info
+     1>NetlabTAU.lib(pppoe.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'NetlabTAU.lib(pppoe.obj)' or at 'C:\Users\David\Desktop\Netlab02 (1)\Netlab02\Release\vc120.pdb'; linking object as if no debug info
+     1>NetlabTAU.lib(dot1q.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'NetlabTAU.lib(dot1q.obj)' or at 'C:\Users\David\Desktop\Netlab02 (1)\Netlab02\Release\vc120.pdb'; linking object as if no debug info
+     1>NetlabTAU.lib(tcp.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'NetlabTAU.lib(tcp.obj)' or at 'C:\Users\David\Desktop\Netlab02 (1)\Netlab02\Release\vc120.pdb'; linking object as if no debug info
+     1>NetlabTAU.lib(dot11_data.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'NetlabTAU.lib(dot11_data.obj)' or at 'C:\Users\David\Desktop\Netlab02 (1)\Netlab02\Release\vc120.pdb'; linking object as if no debug info
+     1>NetlabTAU.lib(dot11_beacon.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'NetlabTAU.lib(dot11_beacon.obj)' or at 'C:\Users\David\Desktop\Netlab02 (1)\Netlab02\Release\vc120.pdb'; linking object as if no debug info
+     1>NetlabTAU.lib(dot11_assoc.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'NetlabTAU.lib(dot11_assoc.obj)' or at 'C:\Users\David\Desktop\Netlab02 (1)\Netlab02\Release\vc120.pdb'; linking object as if no debug info
+     1>NetlabTAU.lib(dot11_control.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'NetlabTAU.lib(dot11_control.obj)' or at 'C:\Users\David\Desktop\Netlab02 (1)\Netlab02\Release\vc120.pdb'; linking object as if no debug info
+     1>NetlabTAU.lib(dot11_auth.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'NetlabTAU.lib(dot11_auth.obj)' or at 'C:\Users\David\Desktop\Netlab02 (1)\Netlab02\Release\vc120.pdb'; linking object as if no debug info
+     1>NetlabTAU.lib(dot11_probe.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'NetlabTAU.lib(dot11_probe.obj)' or at 'C:\Users\David\Desktop\Netlab02 (1)\Netlab02\Release\vc120.pdb'; linking object as if no debug info
+     1>NetlabTAU.lib(llc.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'NetlabTAU.lib(llc.obj)' or at 'C:\Users\David\Desktop\Netlab02 (1)\Netlab02\Release\vc120.pdb'; linking object as if no debug info
+     1>NetlabTAU.lib(snap.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'NetlabTAU.lib(snap.obj)' or at 'C:\Users\David\Desktop\Netlab02 (1)\Netlab02\Release\vc120.pdb'; linking object as if no debug info
+     1>NetlabTAU.lib(dot11_mgmt.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'NetlabTAU.lib(dot11_mgmt.obj)' or at 'C:\Users\David\Desktop\Netlab02 (1)\Netlab02\Release\vc120.pdb'; linking object as if no debug info
+     1>NetlabTAU.lib(stp.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'NetlabTAU.lib(stp.obj)' or at 'C:\Users\David\Desktop\Netlab02 (1)\Netlab02\Release\vc120.pdb'; linking object as if no debug info
+     1>NetlabTAU.lib(rsn_information.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'NetlabTAU.lib(rsn_information.obj)' or at 'C:\Users\David\Desktop\Netlab02 (1)\Netlab02\Release\vc120.pdb'; linking object as if no debug info
+         Netlab02.vcxproj -> C:\Users\David\Desktop\Netlab02 (1)\Netlab02\Release\Netlab02.exe
+     1>Done Building Project "C:\Users\David\Desktop\Netlab02 (1)\Netlab02\Netlab02\Netlab02.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.70
